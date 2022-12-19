@@ -52,6 +52,6 @@ function getComputerChoice(){
 let playerSelection = "rock";
 const computerSelection = getComputerChoice();
 for(let i = 0; i<5; i++){
-    playerSelection = prompt("Enter your selection: ");
+    //playerSelection = prompt("Enter your selection: ");
     console.log(playRound(playerSelection, computerSelection));
 }
