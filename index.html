@@ -11,36 +11,53 @@
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    <header>
-        <h1 class="game-title">Rock, Paper, Scissors</h1>
-    </header>
-    <main>
-        <div>
-            <h1>How to play</h1>
-            <p>
-                A classic two-person game. Players start each round by saying, “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock, flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins each round! This is a good way to decide who goes first in other games.
-            </p>
-        </div>
-        <h1>Game</h1>
-        <div class="game">
-            <div class="game-item" id="rock">
-                <i class="item-icon fa-regular fa-hand-back-fist fa-4x"></i>
-                <h6 class="item-name">Rock</h6>
+    <div class="container">
+        <header>
+            <h1 class="game-title">Rock, Paper, Scissors</h1>
+        </header>
+        <main>
+            <div>
+                <h1>How to play</h1>
+                <p>
+                    A classic two-person game. Players start each round by saying, “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock, flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors, scissors cut paper, and paper covers rock. See who wins each round! This is a good way to decide who goes first in other games.
+                </p>
             </div>
-            <div class="game-item" id="paper">
-                <i class="item-icon fa-regular fa-hand fa-4x"></i>
-                <h6 class="item-name">Paper</h6>
+            <h1>Select your choice</h1>
+            <div class="game-selection">
+                <div class="game-box game-item" id="rock">
+                    <i class="item-icon fa-regular fa-hand-back-fist fa-4x"></i>
+                    <h6 class="item-name">Rock</h6>
+                </div>
+                <div class="game-box game-item" id="paper">
+                    <i class="item-icon fa-regular fa-hand fa-4x"></i>
+                    <h6 class="item-name">Paper</h6>
+                </div>
+                <div class="game-box game-item" id="scissors">
+                    <i class="item-icon fa-regular fa-hand-scissors fa-4x"></i>
+                    <h6 class="item-name">Scissors</h6>
+                </div>
             </div>
-            <div class="game-item" id="scissors">
-                <i class="item-icon fa-regular fa-hand-scissors fa-4x"></i>
-                <h6 class="item-name">Scissors</h6>
+            <h1>Battle</h1>
+            <div class="game-battle">
+                <div class="game-box">
+                    <i class="item-icon fa-regular fa-user fa-4x" id="player-user"></i>
+                    <h6 class="item-name">Player</h6>
+                </div>
+                <div class="game-box">
+                    <i class="item-icon fa-solid fa-computer fa-4x" id="player-pc"></i>
+                    <h6 class="item-name">Computer</h6>
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <p>Maded by Caaylow 2022</p>
-        <i class="fa-brands fa-github"></i>
-    </footer>
-    <script src="main.js"></script>
+            <div class="game-match-results">
+                <h2 id="win-text">Congratulations, You Won!</h2>
+                <h2 id="lose-text">You Lose!</h2>
+            </div>
+        </main>
+        <footer>
+            <p>Made by Caaylow 2022</p>
+            <i class="fa-brands fa-github"></i>
+        </footer>
+        <script src="main.js"></script>
+    </div>
 </body>
 </html>
