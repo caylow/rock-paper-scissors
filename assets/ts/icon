@@ -1,0 +1,18 @@
+export class Icon{
+    //Attributes
+    private _iconClass: string;
+
+    constructor(iconClass: string){
+        this._iconClass = iconClass;
+    }
+
+    //_iconClass setter's and getter's
+    set iconClass(iconClass: string){
+        this._iconClass = iconClass;
+    }
+
+    get iconClass():string{
+        return this._iconClass;
+    }
+
+}
