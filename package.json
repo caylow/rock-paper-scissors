@@ -1,0 +1,33 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "A rock paper scissors web game",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -p 8456"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caylow/rock-paper-scissors.git"
+  },
+  "keywords": [
+    "game",
+    "rock",
+    "paper",
+    "scissors",
+    "html",
+    "css",
+    "js",
+    "ts"
+  ],
+  "author": "Juan Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caylow/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/caylow/rock-paper-scissors#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
