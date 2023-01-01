@@ -1,8 +1,9 @@
+import { Icon } from "./icon";
 export class IconManager {
     _icon;
     _defaultClass;
-    constructor(defaultClass) {
-        this._icon(defaultClass);
+    constructor(iconID, defaultClass) {
+        this._icon = new Icon(iconID, defaultClass);
         this._defaultClass = defaultClass;
     }
     setDefault() {

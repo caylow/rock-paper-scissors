@@ -15,8 +15,8 @@ const gameChoices = document.querySelectorAll(".game-item");
 
 
 //Initialize all objects
-const player = new Player("John");
-const computer = new PlayerComputer();
+const player = new Player("John", "player-user", "fa-regular fa-user");
+const computer = new PlayerComputer("player-pc", "fa-solid fa-computer");
 const game = new Game(player, computer);
 
 

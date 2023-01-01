@@ -1,12 +1,17 @@
+import { IconManager } from "./icon-manager";
+
 export class Player{
     //Player's attributes
     readonly name:string;
     protected _choice:number;
     private _isWinner:boolean;
-    public constructor(name:string){
+    private _icon: IconManager;
+
+    public constructor(name:string, iconID:string, iconClass:string){
         this._choice = 0;
         this._isWinner = false;
         this.name = name;
+        this._icon = new IconManager(iconID, iconClass);
     }
     //_choice setter and getter
     set choice(gamechoice:number){

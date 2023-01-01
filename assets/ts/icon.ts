@@ -1,8 +1,9 @@
 export class Icon{
     //Attributes
     private _iconClass: string;
-
-    constructor(iconClass: string){
+    private _iconID: string;
+    constructor(iconID:string ,iconClass: string){
+        this._iconID = iconID;
         this._iconClass = iconClass;
     }
 
