@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    color:#fff;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+h1.game-title{
+    font-size: 4em;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+}
+body{
+    background-color: #000;
+    max-width: 980px;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+Game
+*/
+.game-box{
+    padding: 16px;
+    height: 160px;
+    width: 160px;
+    border: 3px solid #fff;
+}
+.game-item{
+    cursor: pointer;
+}
+.game-item:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.game-selection, .game-battle,.game-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-selection, .game-battle{
+    flex-direction: row ;
+    padding: 16px;
+
+}
+.game-box{
+    flex-direction: column;
+    margin: 16px;
+}
+.item-name{
+    flex-direction: row;
+}
+h6{
+    margin: 16px;
+    font-size: 1.5em;
+}
+
+/*
+Game Match Results
+*/
+.game-match-results{
+    text-align: center;
+}
